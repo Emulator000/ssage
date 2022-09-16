@@ -1,0 +1,15 @@
+[package]
+name = "ssage"
+version = "0.1.0-alpha1"
+authors = ["Emulator000 <emulator000@gmail.com>"]
+description = "Library to extract important words from a sequence of messages or a full text"
+edition = "2021"
+readme = "README.md"
+repository = "https://github.com/Emulator000/ssage"
+license = "MIT"
+keywords = ["keywords", "text", "message", "utils"]
+
+[dependencies]
+unicase = { version = "^2.6", default-features = false }
+priority-queue = { version = "^1.2", default-features = false }
+iter_tools = { version = "^0.1", default-features = false }
